@@ -1,0 +1,103 @@
+.superior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4, 4, 82);
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    font-weight: 900;
+}
+
+nav ul li {
+    margin-right: 1.5rem; 
+    list-style:none;
+    
+}
+
+.primera {
+    background-color: #009e93;
+    height: 70vh;
+}
+
+.avatar {
+    /* width: 96%; */
+    /* max-width: 960px; */
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.avatar img {
+    width: 20rem;
+    height: 20rem; 
+    margin-top: 8rem;      
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.primera p {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.segunda {
+    height: 52vh;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    margin: auto;
+}
+
+.contenedor img {
+    width: 15rem;
+    height: 10rem; 
+    margin: 1rem;
+}
+
+.tercera {
+    background-color: #009e93;
+    height: 40vh;
+}
+
+.centrado {
+    padding: 1rem;
+}
+.parrafo p {
+    width: 17%;
+    color: white;
+    padding: 0.8rem;
+}
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.descarga {
+    background-color: #009e93;
+    border: 0.1rem solid white;
+    border-radius: 0.2rem;
+    color: white;
+    padding: 0.8rem;
+}
+
+.botonDescarga {
+    text-align: center;
+    margin-top: 2rem;
+}
+/* input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+} */
